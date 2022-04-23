@@ -1,0 +1,80 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# CocoaPods
+/ios/Pods/
+truyu.code-workspace
+.vscode/
+ios/GoogleService-Info.plist
+ios/rnTutorial/Info.plist
+ios/constants.swift
+DistributionSummary.plist
+ExportOptions.plist
+Packaging.log
+
+# Android/IntelliJ Android
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/app/google-services.json
+android/app/src/main/java/com/truyu/plugins/util/env/EnvConstants.java
+android/app/slice.keystore
+android/app/src/main/res/values/strings.xml
+android/app/main/assets/containers/GTM*.json
+android/app/src/main/assets/containers/GTM*.json
+android/java_pid3376.hprof
+android/java_pid501.hprof
+android/java_pid647.hprof
+android/java_pid7077.hprof
+index.android.bundle
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# BUCK
+buck-out/
+\.buckd/
+#*.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
